@@ -1,0 +1,48 @@
+:py:mod:`healthdatapy.healthdatapy`
+===================================
+
+.. py:module:: healthdatapy.healthdatapy
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   healthdatapy.healthdatapy.HealthDataPy
+
+
+
+
+.. py:class:: HealthDataPy(base_url='https://www.who.int/data/gho/info/gho-odata-api')
+
+
+   .. py:method:: get_data(endpoint, params=None)
+
+      Fetch data from the specified WHO GHO OData API endpoint.
+
+
+   .. py:method:: clean_data(data)
+
+      Clean and preprocess the data fetched from the API.
+
+
+   .. py:method:: aggregate_data(data, by)
+
+      Aggregate data based on specified criteria.
+
+
+   .. py:method:: plot_data(data, plot_type='line')
+
+      Create a plot from the given data.
+
+
+   .. py:method:: api_status_check()
+
+      Check the operational status of the WHO GHO OData API.
+
+
+

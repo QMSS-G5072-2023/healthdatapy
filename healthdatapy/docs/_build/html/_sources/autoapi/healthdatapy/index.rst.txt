@@ -1,0 +1,22 @@
+:py:mod:`healthdatapy`
+======================
+
+.. py:module:: healthdatapy
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   healthdatapy/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+
+   
+
